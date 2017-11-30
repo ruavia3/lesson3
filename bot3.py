@@ -27,11 +27,13 @@ def planet_handler(bot, update, args):
     print(args)
     update.message.reply_text(constellation_reply)
 
-def wordcounting(user_msg):
-    if user_msg is not None: 
-        user_words = len(user_msg.split())
-        update.message.reply_text(user_msg + " " + user_words + "слова")
-
+def wordcounting(bot, update):
+    user_text = update.message.text
+    if user_text is None:
+        update.message.reply_text("введите хоть что-нибудь")
+    else:
+        user_words = len(user_text.split())-1
+        update.message.reply_text(user_text +" состоит из " + str(user_words) + " слов")
 
 def talk_to_me(bot, update):
     user_text=update.message.text

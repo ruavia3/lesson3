@@ -1326,3 +1326,130 @@ telegram.ext.updater -ERROR-Error while getting Updates: Conflict: terminated by
 telegram.ext.updater -ERROR-Error while getting Updates: Conflict: terminated by other long poll or webhook (409)
 telegram.ext.updater -ERROR-Error while getting Updates: Conflict: terminated by other long poll or webhook (409)
 telegram.ext.updater -ERROR-Error while getting Updates: Conflict: terminated by other long poll or webhook (409)
+telegram.ext.updater -ERROR-Error while getting Updates: Conflict: terminated by other long poll or webhook (409)
+telegram.ext.updater -ERROR-Error while getting Updates: Conflict: terminated by other long poll or webhook (409)
+telegram.ext.updater -ERROR-Error while getting Updates: Conflict: terminated by other long poll or webhook (409)
+telegram.ext.updater -ERROR-Error while getting Updates: Conflict: terminated by other long poll or webhook (409)
+telegram.ext.updater -ERROR-Error while getting Updates: Conflict: terminated by other long poll or webhook (409)
+telegram.ext.updater -ERROR-Error while getting Updates: Conflict: terminated by other long poll or webhook (409)
+telegram.ext.updater -ERROR-Error while getting Updates: Conflict: terminated by other long poll or webhook (409)
+telegram.ext.updater -ERROR-Error while getting Updates: Conflict: terminated by other long poll or webhook (409)
+telegram.ext.updater -ERROR-Error while getting Updates: Conflict: terminated by other long poll or webhook (409)
+telegram.ext.updater -ERROR-Error while getting Updates: Conflict: terminated by other long poll or webhook (409)
+telegram.ext.updater -ERROR-Error while getting Updates: Conflict: terminated by other long poll or webhook (409)
+telegram.ext.updater -ERROR-Error while getting Updates: Conflict: terminated by other long poll or webhook (409)
+telegram.ext.updater -ERROR-Error while getting Updates: Conflict: terminated by other long poll or webhook (409)
+telegram.ext.updater -ERROR-Error while getting Updates: Conflict: terminated by other long poll or webhook (409)
+telegram.ext.updater -ERROR-Error while getting Updates: Conflict: terminated by other long poll or webhook (409)
+telegram.ext.dispatcher -ERROR-An uncaught error was raised while processing the update
+Traceback (most recent call last):
+  File "C:\Users\User\AppData\Local\Programs\Python\Python36-32\lib\site-packages\telegram\ext\dispatcher.py", line 270, in process_update
+    handler.handle_update(update, self)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python36-32\lib\site-packages\telegram\ext\commandhandler.py", line 171, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+  File "bot3.py", line 31, in wordcounting
+    if user_msg is not None:
+NameError: name 'user_msg' is not defined
+telegram.ext.updater -ERROR-Error while getting Updates: Conflict: terminated by other long poll or webhook (409)
+telegram.ext.updater -ERROR-Error while getting Updates: Conflict: terminated by other long poll or webhook (409)
+telegram.ext.updater -ERROR-Error while getting Updates: Conflict: terminated by other long poll or webhook (409)
+telegram.ext.updater -ERROR-Error while getting Updates: Conflict: terminated by other long poll or webhook (409)
+telegram.ext.updater -ERROR-Error while getting Updates: Conflict: terminated by other long poll or webhook (409)
+telegram.ext.updater -ERROR-Error while getting Updates: Conflict: terminated by other long poll or webhook (409)
+telegram.ext.updater -ERROR-Error while getting Updates: Conflict: terminated by other long poll or webhook (409)
+telegram.ext.updater -ERROR-Error while getting Updates: Conflict: terminated by other long poll or webhook (409)
+telegram.ext.updater -ERROR-Error while getting Updates: Conflict: terminated by other long poll or webhook (409)
+telegram.ext.updater -ERROR-Error while getting Updates: Conflict: terminated by other long poll or webhook (409)
+telegram.ext.updater -ERROR-Error while getting Updates: Conflict: terminated by other long poll or webhook (409)
+telegram.ext.updater -ERROR-Error while getting Updates: Conflict: terminated by other long poll or webhook (409)
+telegram.ext.updater -ERROR-Error while getting Updates: Conflict: terminated by other long poll or webhook (409)
+telegram.ext.updater -ERROR-Error while getting Updates: Conflict: terminated by other long poll or webhook (409)
+telegram.ext.updater -ERROR-Error while getting Updates: Conflict: terminated by other long poll or webhook (409)
+telegram.ext.updater -ERROR-Error while getting Updates: Conflict: terminated by other long poll or webhook (409)
+telegram.ext.updater -ERROR-Error while getting Updates: Conflict: terminated by other long poll or webhook (409)
+telegram.ext.updater -ERROR-Error while getting Updates: Conflict: terminated by other long poll or webhook (409)
+telegram.ext.updater -ERROR-Error while getting Updates: Conflict: terminated by other long poll or webhook (409)
+telegram.ext.updater -ERROR-Error while getting Updates: Conflict: terminated by other long poll or webhook (409)
+telegram.ext.updater -ERROR-Error while getting Updates: Conflict: terminated by other long poll or webhook (409)
+telegram.ext.updater -WARNING-Exiting immediately!
+telegram.ext.updater -ERROR-Error while getting Updates: Conflict: terminated by other long poll or webhook (409)
+telegram.ext.updater -ERROR-Error while getting Updates: Conflict: terminated by other long poll or webhook (409)
+telegram.ext.updater -ERROR-Error while getting Updates: Conflict: terminated by other long poll or webhook (409)
+telegram.ext.updater -ERROR-Error while getting Updates: Conflict: terminated by other long poll or webhook (409)
+telegram.ext.updater -ERROR-Error while getting Updates: Conflict: terminated by other long poll or webhook (409)
+telegram.ext.updater -ERROR-Error while getting Updates: Conflict: terminated by other long poll or webhook (409)
+telegram.ext.updater -ERROR-Error while getting Updates: Conflict: terminated by other long poll or webhook (409)
+telegram.ext.dispatcher -ERROR-An uncaught error was raised while processing the update
+Traceback (most recent call last):
+  File "C:\Users\User\AppData\Local\Programs\Python\Python36-32\lib\site-packages\telegram\ext\dispatcher.py", line 270, in process_update
+    handler.handle_update(update, self)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python36-32\lib\site-packages\telegram\ext\commandhandler.py", line 171, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+  File "bot3.py", line 32, in wordcounting
+    update.message.reply_text(user_msg + " " + str(user_words) + "слов(а)")
+NameError: name 'user_msg' is not defined
+telegram.ext.updater -ERROR-Error while getting Updates: Conflict: terminated by other long poll or webhook (409)
+telegram.ext.updater -ERROR-Error while getting Updates: Conflict: terminated by other long poll or webhook (409)
+telegram.ext.updater -ERROR-Error while getting Updates: Conflict: terminated by other long poll or webhook (409)
+telegram.ext.updater -ERROR-Error while getting Updates: Conflict: terminated by other long poll or webhook (409)
+telegram.ext.updater -ERROR-Error while getting Updates: Conflict: terminated by other long poll or webhook (409)
+telegram.ext.updater -ERROR-Error while getting Updates: Conflict: terminated by other long poll or webhook (409)
+telegram.ext.updater -ERROR-Error while getting Updates: Conflict: terminated by other long poll or webhook (409)
+telegram.ext.updater -ERROR-Error while getting Updates: Conflict: terminated by other long poll or webhook (409)
+telegram.ext.updater -ERROR-Error while getting Updates: Conflict: terminated by other long poll or webhook (409)
+telegram.ext.updater -ERROR-Error while getting Updates: Conflict: terminated by other long poll or webhook (409)
+telegram.ext.updater -ERROR-Error while getting Updates: Conflict: terminated by other long poll or webhook (409)
+telegram.ext.dispatcher -ERROR-An uncaught error was raised while processing the update
+Traceback (most recent call last):
+  File "C:\Users\User\AppData\Local\Programs\Python\Python36-32\lib\site-packages\telegram\ext\dispatcher.py", line 270, in process_update
+    handler.handle_update(update, self)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python36-32\lib\site-packages\telegram\ext\commandhandler.py", line 171, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+  File "bot3.py", line 32, in wordcounting
+    update.message.reply_text(user_text + str(user_words))
+NameError: name 'user_text' is not defined
+telegram.ext.updater -ERROR-Error while getting Updates: Conflict: terminated by other long poll or webhook (409)
+telegram.ext.dispatcher -ERROR-An uncaught error was raised while processing the update
+Traceback (most recent call last):
+  File "C:\Users\User\AppData\Local\Programs\Python\Python36-32\lib\site-packages\telegram\ext\dispatcher.py", line 270, in process_update
+    handler.handle_update(update, self)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python36-32\lib\site-packages\telegram\ext\commandhandler.py", line 171, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+  File "bot3.py", line 32, in wordcounting
+    update.message.reply_text(user_text + str(user_words))
+NameError: name 'user_text' is not defined
+telegram.ext.updater -ERROR-Error while getting Updates: Conflict: terminated by other long poll or webhook (409)
+telegram.ext.updater -ERROR-Error while getting Updates: Conflict: terminated by other long poll or webhook (409)
+telegram.ext.updater -ERROR-Error while getting Updates: Conflict: terminated by other long poll or webhook (409)
+telegram.ext.updater -ERROR-Error while getting Updates: Conflict: terminated by other long poll or webhook (409)
+telegram.ext.updater -ERROR-Error while getting Updates: Conflict: terminated by other long poll or webhook (409)
+telegram.ext.updater -WARNING-Exiting immediately!
+telegram.ext.updater -ERROR-Error while getting Updates: Conflict: terminated by other long poll or webhook (409)
+telegram.ext.updater -ERROR-Error while getting Updates: Conflict: terminated by other long poll or webhook (409)
+telegram.ext.updater -ERROR-Error while getting Updates: Conflict: terminated by other long poll or webhook (409)
+telegram.ext.updater -ERROR-Error while getting Updates: Conflict: terminated by other long poll or webhook (409)
+telegram.ext.updater -ERROR-Error while getting Updates: Conflict: terminated by other long poll or webhook (409)
+telegram.ext.updater -WARNING-Exiting immediately!
+telegram.ext.updater -ERROR-Error while getting Updates: Conflict: terminated by other long poll or webhook (409)
+telegram.ext.updater -ERROR-Error while getting Updates: Conflict: terminated by other long poll or webhook (409)
+telegram.ext.updater -ERROR-Error while getting Updates: Conflict: terminated by other long poll or webhook (409)
+telegram.ext.updater -WARNING-Exiting immediately!
+telegram.ext.updater -ERROR-Error while getting Updates: Conflict: terminated by other long poll or webhook (409)
+telegram.ext.updater -ERROR-Error while getting Updates: Conflict: terminated by other long poll or webhook (409)
+telegram.ext.updater -ERROR-Error while getting Updates: Conflict: terminated by other long poll or webhook (409)
+telegram.ext.updater -ERROR-Error while getting Updates: Conflict: terminated by other long poll or webhook (409)
+telegram.ext.updater -ERROR-Error while getting Updates: Conflict: terminated by other long poll or webhook (409)
+telegram.ext.updater -WARNING-Exiting immediately!
+telegram.ext.updater -ERROR-Error while getting Updates: Conflict: terminated by other long poll or webhook (409)
+telegram.ext.updater -ERROR-Error while getting Updates: Conflict: terminated by other long poll or webhook (409)
+telegram.ext.updater -ERROR-Error while getting Updates: Conflict: terminated by other long poll or webhook (409)
+telegram.ext.updater -ERROR-Error while getting Updates: Conflict: terminated by other long poll or webhook (409)
+telegram.ext.updater -ERROR-Error while getting Updates: Conflict: terminated by other long poll or webhook (409)
+telegram.ext.updater -ERROR-Error while getting Updates: Conflict: terminated by other long poll or webhook (409)
+telegram.ext.updater -ERROR-Error while getting Updates: Conflict: terminated by other long poll or webhook (409)
+telegram.ext.updater -ERROR-Error while getting Updates: Conflict: terminated by other long poll or webhook (409)
+telegram.ext.updater -ERROR-Error while getting Updates: Conflict: terminated by other long poll or webhook (409)
+telegram.ext.updater -ERROR-Error while getting Updates: Conflict: terminated by other long poll or webhook (409)
+telegram.ext.updater -ERROR-Error while getting Updates: Conflict: terminated by other long poll or webhook (409)
+telegram.ext.updater -ERROR-Error while getting Updates: Conflict: terminated by other long poll or webhook (409)
+telegram.ext.updater -ERROR-Error while getting Updates: Conflict: terminated by other long poll or webhook (409)
