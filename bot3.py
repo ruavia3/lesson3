@@ -29,12 +29,19 @@ def planet_handler(bot, update, args):
 
 def wordcounting(bot, update):
     user_text = update.message.text
-    if user_text is None:
+    if user_text == "/wordcount":
         update.message.reply_text("введите хоть что-нибудь")
     else:
         user_words = len(user_text.split())-1
-        update.message.reply_text(user_text +" состоит из " + str(user_words) + " слов")
-
+    if int(repr(user_words)[-1]) ==1:
+        update.message.reply_text("введенное значение содержит " + str(user_words) + " слово")
+    if 1<int(repr(user_words)[-1])<5:
+        update.message.reply_text("введенное значение содержит " + str(user_words) + " слова")
+    if int(repr(user_words)[-1])==0:
+        update.message.reply_text("введенное значение содержит " + str(user_words) + " слов")
+    if int(repr(user_words)[-1])>4:
+        update.message.reply_text("введенное значение содержит " + str(user_words) + " слов")
+     
 def talk_to_me(bot, update):
     user_text=update.message.text
     logging.info(user_text)
