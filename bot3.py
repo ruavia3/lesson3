@@ -5,6 +5,8 @@ import datetime
 
 from ephem_planets import planet_ephem
 
+import settings
+
 planets_list = ["Mars", "Earth", "Moon", "Jupiter", "Neptune", "Sun"]
 
 
@@ -28,19 +30,21 @@ def planet_handler(bot, update, args):
     update.message.reply_text(constellation_reply)
 
 def wordcounting(bot, update):
+    
     user_text = update.message.text
     if user_text == "/wordcount":
         update.message.reply_text("введите хоть что-нибудь")
+        return
     else:
         user_words = len(user_text.split())-1
-    if int(repr(user_words)[-1]) ==1:
-        update.message.reply_text("введенное значение содержит " + str(user_words) + " слово")
-    if 1<int(repr(user_words)[-1])<5:
-        update.message.reply_text("введенное значение содержит " + str(user_words) + " слова")
-    if int(repr(user_words)[-1])==0:
-        update.message.reply_text("введенное значение содержит " + str(user_words) + " слов")
-    if int(repr(user_words)[-1])>4:
-        update.message.reply_text("введенное значение содержит " + str(user_words) + " слов")
+        lastdigit = user_words % 10
+        if lastdigit == 1 and user_words < 2:
+            ending = "слово"
+        elif lastdigit == 0 or (lastdigit > 4 and user_words >1):
+            ending = "слов"
+        elif 1 <lastdigit < 5:
+            ending = "слова"
+        update.message.reply_text("введенное значение содержит {} {}".format(user_words, ending))
      
 def talk_to_me(bot, update):
     user_text=update.message.text
@@ -48,7 +52,7 @@ def talk_to_me(bot, update):
     update.message.reply_text(user_text + "?")
 
 def main():
-    updater = Updater("460984466:AAE8eUWEA-hLEO3rkQ03xpJRm0StI8Wk_VA")
+    updater = Updater(settings.BOT_TOKEN)
     dp =updater.dispatcher
     dp.add_handler(CommandHandler("start", greet_user))
     dp.add_handler(CommandHandler("planet", planet_handler, pass_args=True)) 
